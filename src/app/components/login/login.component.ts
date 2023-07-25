@@ -24,7 +24,8 @@ export class LoginComponent implements OnInit {
       authParams: {
         pkce: true,
         issuer: myAppConfig.oidc.issuer,
-        scopes: myAppConfig.oidc.scopes
+        scopes: myAppConfig.oidc.scopes,
+        responseMode: 'query',
       }
     });
    }
