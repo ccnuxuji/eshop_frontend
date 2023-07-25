@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  API: 'https://mywiki.jimmyxj.com:8080/api'
 };
