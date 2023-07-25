@@ -95,8 +95,8 @@ const routes: Routes = [
     OktaAuthModule
   ],
   providers: [ProductService, { provide: OKTA_CONFIG, useValue: { oktaAuth } },
-    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptorService, multi: true },
-    {provide: LocationStrategy, useClass: HashLocationStrategy}
+    // { provide: LocationStrategy, useClass: HashLocationStrategy },
+    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptorService, multi: true }
   ],
   bootstrap: [AppComponent]
 })
