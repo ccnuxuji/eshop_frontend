@@ -8,7 +8,7 @@ Our powerful search and filtering options simplify the process of finding the pr
 Moreover, we prioritize your security during the checkout process, offering a safe and secure transaction environment. 
 Shop with confidence on Eshop, where convenience meets quality.
 
-The Frontend repository can be found [>>>here<<<](https://github.com/ccnuxuji/ecommerce_frontend)
+The Frontend repository can be found [>>>here<<<](https://github.com/ccnuxuji/ecommerce_backend)
 ## Technology used
 **Frontend:** TypeScript, Html, CSS, Angular
 
@@ -18,17 +18,17 @@ The Frontend repository can be found [>>>here<<<](https://github.com/ccnuxuji/ec
 
 ## Feature Lists
 
-1. Sign up, log in, and demo user
-   ![signup-login](./images/signup-login.gif)
+1. Log in, and demo user
+   ![signup-login](./images/login.png)
 
 2. Product Catalog:
-   ![stock-buy-sell](./images/stock-buy-sell.gif)
+   ![stock-buy-sell](./images/products.png)
 
 3. Search and Filters:
-   ![add-to-watchlist](./images/add-to-watchlist.gif)
+   ![add-to-watchlist](./images/search.png)
 
 4. Shopping Cart:
-   ![search-stock](./images/search-stock.gif)
+   ![search-stock](./images/shoppingcart.png)
 
 ## Getting started
 1. Clone this repository:
@@ -38,9 +38,10 @@ The Frontend repository can be found [>>>here<<<](https://github.com/ccnuxuji/ec
    `
 2. Install dependencies into the Backed and the Frontend by making a terminal for each one and then run the following:
 
-    * `mvn install`
+    * `npm install`
 
-3. Setting up your own environment variables in application.properties.
+3. Start project using:
+    * `npm start`
 
 ## Schema
 ![db-schema](./images/eshopdb.png)
