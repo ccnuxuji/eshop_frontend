@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   API: 'https://mywiki.jimmyxj.com:8080/api'
+  // API: 'http://localhost:8080/api'
 };
 
 /*
