@@ -1,27 +1,50 @@
-# AngularEcommerce
+# Eshop
+[>>>Live Site<<<](https://www.ecommerce.jimmyxj.com/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.7.
+Eshop is a sophisticated online shopping web application designed to elevate your shopping experience. 
+Our application empowers users to effortlessly create and manage their profiles, ensuring a personalized journey. 
+With user-friendly features, you can easily add and organize items in your shopping cart. 
+Our powerful search and filtering options simplify the process of finding the products you desire. 
+Moreover, we prioritize your security during the checkout process, offering a safe and secure transaction environment. 
+Shop with confidence on Eshop, where convenience meets quality.
 
-## Development server
+The Frontend repository can be found [>>>here<<<](https://github.com/ccnuxuji/ecommerce_frontend)
+## Technology used
+**Frontend:** TypeScript, Html, CSS, Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Backend:** Java, Spring Boot, Spring Data JPA, Mysql
 
-## Code scaffolding
+**Third-party service:** Stripe, Okta
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Feature Lists
 
-## Build
+1. Sign up, log in, and demo user
+   ![signup-login](./images/signup-login.gif)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Product Catalog:
+   ![stock-buy-sell](./images/stock-buy-sell.gif)
 
-## Running unit tests
+3. Search and Filters:
+   ![add-to-watchlist](./images/add-to-watchlist.gif)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. Shopping Cart:
+   ![search-stock](./images/search-stock.gif)
 
-## Running end-to-end tests
+## Getting started
+1. Clone this repository:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   `
+   https://github.com/ccnuxuji/coinguard.git
+   `
+2. Install dependencies into the Backed and the Frontend by making a terminal for each one and then run the following:
 
-## Further help
+    * `mvn install`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Setting up your own environment variables in application.properties.
+
+## Schema
+![db-schema](./images/eshopdb.png)
+
+## Contact me
+
+Jimmy Xu, ccnuxuji@gmail.com, [Linkedin](https://www.linkedin.com/in/ccnuxuji/)
