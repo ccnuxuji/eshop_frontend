@@ -8,7 +8,7 @@ Our powerful search and filtering options simplify the process of finding the pr
 Moreover, we prioritize your security during the checkout process, offering a safe and secure transaction environment. 
 Shop with confidence on Eshop, where convenience meets quality.
 
-The Frontend repository can be found [>>>here<<<](https://github.com/ccnuxuji/ecommerce_backend)
+The Backend repository can be found [>>>here<<<](https://github.com/ccnuxuji/ecommerce_backend)
 ## Technology used
 **Frontend:** TypeScript, Html, CSS, Angular
 
